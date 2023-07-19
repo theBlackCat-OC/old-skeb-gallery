@@ -1,8 +1,7 @@
-# skeb-oc-gallery
+# Reference Gallery for skeb.jp artists
 
 Repository for the Original Character References Gallery: Japanese Version, meant to be the reference page for the skeb.jp artists.
 
-## Check my [skeb.jp profile](https://skeb.jp/@theBlackCat) (🔞 Note: *very* NSFW)
 
 ## Wait, there is a reference to a folder called "gallery" but is not here
 
