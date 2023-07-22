@@ -27,12 +27,6 @@
   }
   .bottombar-button:hover {
     background-color: #ffffff;
-    font-size: 1.03em;
-    transform: scale(1.1);
-    padding-left: 4px;
-    padding-right: 4px;
-    border: 1px solid black;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: 0.5s;
   }
   

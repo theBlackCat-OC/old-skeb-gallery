@@ -57,11 +57,11 @@ body{
   .butwhy-button {
     display: inline-block;
     padding: 5px 10px;
-    background-color: #f1f1f1;
-    color: #333;
-    cursor: help;
+    background-color: #d3d3d3;
+    color: #ffffff;
     font-size: 0.6em;
     font-family: 'sanfrancisco', serif;
+    margin-top: 0.5vh;
   }
 
   .butwhy-button:hover{
@@ -69,4 +69,69 @@ body{
     transition: 0.5s;
   }
   
+  h1, h2, h3{
+    font-family: 'productsanslight', sans-serif;
+  }
+
+  .notification {
+    position: fixed;
+    top: 30vh;
+    left: 10vw;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    padding: 10px;
+    display: none;
+    z-index: 999;
+    font-family: 'productsanslight';
+    text-align: center;
+    font-size: 1.4em;
+    border: 1px solid black;
+  }
+
+  .notification a{
+    color: rgb(24, 124, 255);
+  }
+
+  .notification a:hover{
+    color: rgb(0, 0, 0);
+  }
+
+  .arrow {
+    display: block;
+    font-size: 24px;
+    opacity: 0;
+    animation: slideIn 1s infinite;
+    margin-bottom: 10px;
+  }
   
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+  }
+
+  @media (min-width: 1454px) {
+    .notification {
+      left: 15vh;
+      font-size: 1.2em;
+    }
+  }
+
+  @media (max-width: 1148px) {
+    .notification {
+      left: 11vh;
+      font-size: 1em;
+    }
+  }

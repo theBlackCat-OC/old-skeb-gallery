@@ -1,5 +1,5 @@
-#gallery-description{
-    width: 75vh;
+#gallery-description {
+    width: 62vw;
     text-align: center;
     margin: auto;
     font-family: 'sanfrancisco', sans-serif;
@@ -17,7 +17,7 @@
   }
   
   .gallery-navigation{
-    width: 75vh;
+    width: 62vw;
     font-family: 'sanfrancisco', sans-serif;
     font-size: 1.6em;
     margin: auto;
@@ -30,10 +30,12 @@
     border: 1px solid black;
     cursor: pointer;
   }
+  
   .gallery-navigation:hover{
     background-color: rgba(255, 255, 255, 0.9);
     transition: 0.5s;
   }
+
   
     .inline-icon{
     vertical-align: -5px;
@@ -45,4 +47,16 @@
 
   .inline-icon-index{
     vertical-align: -3px;
+  }
+
+  @media (min-width: 1920px) {
+    #gallery-description {
+      width: 55vw;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .gallery-navigation {
+      width: 55vw;
+    }
   }
