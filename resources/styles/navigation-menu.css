@@ -12,6 +12,7 @@
   margin: 0 auto;
   flex-wrap: wrap; 
   box-sizing: border-box; 
+  border-radius: 16px;
 }
 
 .nav-container {
