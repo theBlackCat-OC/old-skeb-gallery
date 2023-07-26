@@ -166,6 +166,16 @@ const galleries = [
     ],
   },
 
+  {
+    name: '刺青の質感',
+    url_id: 'tattoo-texture',
+    download_icon: '&nbsp',  
+    images: [
+      { src: 'gallery/hidden/reference-textures/tattoo-texture/1.png'},
+      { src: 'gallery/hidden/reference-textures/tattoo-texture/2.png'},
+    ],
+  },
+
 ];
 
 function createGallery(gallery) {
