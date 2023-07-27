@@ -143,8 +143,8 @@
 
 .bubble-trigger-gallery {
     position: absolute;
-    top: 12vh;
-    left: 5vw;
+    top: 10vh;
+    left: 6vw;
     padding: 10px;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -158,8 +158,8 @@
   
   .bubble-gallery {
     position: absolute;
-    top: 9vh;
-    left: 5.6vw;
+    top: 10vh;
+    left: 6vw;
     display: none;
     font-size: 0.9em;
     padding: 10px;
@@ -176,14 +176,17 @@
   
   .bubble-gallery a {
     color: rgb(24, 124, 255);
+    z-index: 3;
   }
   
   .bubble-gallery a:hover{
     color: rgb(0, 0, 0);
     cursor: pointer;
+    z-index: 3;
   }
   
   .bubble-trigger-gallery:hover + .bubble-gallery,
   .bubble-gallery:hover {
     display: block;
+    z-index: 3;
   }
