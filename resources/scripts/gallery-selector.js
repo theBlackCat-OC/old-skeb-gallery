@@ -78,6 +78,23 @@ const galleries = [
     ],
   },
 
+  {
+    name: '服装その5',
+    url_id: 'attire-five',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1xwCdjI3RSIsvAxU8q7uBFIpFaVr4BiX6?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    images: [
+      { src: 'gallery/attires/glamourplates/attire-five/1.png', tags: '完全な服装' },
+      { src: 'gallery/attires/glamourplates/attire-five/2.png', tags: '完全な服装' },
+      { src: 'gallery/attires/glamourplates/attire-five/3.png', tags: '完全な服装' },
+      { src: 'gallery/attires/glamourplates/attire-five/4.png', tags: '完全な服装' },
+      { src: 'gallery/attires/glamourplates/attire-five/5.png', tags: '完全な服装' },
+      { src: 'gallery/attires/glamourplates/attire-five/6.png', tags: '完全な服装' },
+      { src: 'gallery/attires/glamourplates/attire-five/7.png', tags: '完全な服装' },
+      { src: 'gallery/attires/glamourplates/attire-five/8.png', tags: '完全な服装' },
+      { src: 'gallery/attires/glamourplates/attire-five/9.png', tags: '完全な服装' },
+    ],
+  },
+
   
   {
     name: 'ミニスカート',
