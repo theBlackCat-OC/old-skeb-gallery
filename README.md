@@ -2,6 +2,6 @@
 
 Repository for the Original Character References Gallery: Japanese MTL Version, meant to be the body reference page for the `skeb.jp` artists.
 
-## Wait, the GitHub pages has NSFW!?!? monkaTOS
+## Wait, the [GitHub Pages](https://theblackcat-oc.github.io/skeb-gallery/) has NSFW!?!? monkaTOS
 
 Not hosted on GitHub so... PepeLa
